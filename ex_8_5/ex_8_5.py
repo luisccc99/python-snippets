@@ -3,7 +3,6 @@ if len(fname) < 1 : fname = "mbox-short.txt"
 
 fh = open(fname)
 count = 0
-words = list()
 
 for line in fh:
 	line = line.rstrip()
@@ -12,6 +11,4 @@ for line in fh:
 	 	continue
 	print(line[1])
 	count = count + 1;		
-
-# print(words, len(words))
 print("There were", count, "lines in the file with From as the first word")
