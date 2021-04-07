@@ -8,10 +8,10 @@ def jumpingOnClouds(clouds):
             steps += 1
             continue
         # as default, take 1 step
-        i += 1        
+        i += 1
         steps += 1
     return steps
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     print(jumpingOnClouds([0, 0, 0, 1, 0, 0]))
