@@ -49,6 +49,8 @@ def isBalanced(sequence):
         elif (char == '}'):
             if (not_equals('{', brackets)):
                 return 'NO'
+    if len(brackets) > 0 :
+        return 'NO'
     return 'YES'
 
 def not_equals(this, stack):
