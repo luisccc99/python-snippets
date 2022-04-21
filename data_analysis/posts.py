@@ -1,3 +1,0 @@
-"""
-visualize posts status
-"""
